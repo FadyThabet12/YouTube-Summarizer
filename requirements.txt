@@ -1,0 +1,9 @@
+# For the Streamlit UI on your computer
+streamlit>=1.35
+requests>=2.31
+youtube-transcript-api>=1.0
+
+# Only needed to run api.py outside the notebook
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2
